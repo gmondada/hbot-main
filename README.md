@@ -1,4 +1,4 @@
-# HBOT - CAD
+# HBOT - Main Project
 
 HBOT is a humanoid robot driven by RC servos.
 
