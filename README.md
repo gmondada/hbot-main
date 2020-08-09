@@ -8,6 +8,10 @@ This design makes use of ES08MA II servos controlled by a custom STM32F4/ESP8266
 
 ![overview](https://raw.githubusercontent.com/gmondada/hbot-main/master/images/hbot-one-leg.jpg)
 
+# Video
+
+* [Full Demo (YouTube)](https://youtu.be/EHFqUxe0FO4)
+
 # Parts
 
 ## 3D Printed Parts
