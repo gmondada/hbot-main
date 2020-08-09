@@ -34,6 +34,18 @@ This design makes use of ES08MA II servos controlled by a custom STM32F4/ESP8266
 * [Left Food](robonoid/bought-parts/project-humanoid-robot-robonoid-foots-by-zalophus-dokdo/Robonoid_Foot_Left.stl)
 * [Right Food](robonoid/bought-parts/project-humanoid-robot-robonoid-foots-by-zalophus-dokdo/Robonoid_Foot_Right.stl)
 
+## Electronics
+
+* [Schematics](https://github.com/gmondada/hbot-pcb/blob/master/doc/schematics.pdf)
+* [PCB](https://github.com/gmondada/hbot-pcb)
+
+## Misc
+
+* [ES08MA II Servos](https://www.aliexpress.com/item/32676616118.html?spm=2114.12010615.8148356.1.693451a3jKN2M7)
+* [Screws for rotating junctions](https://www.aliexpress.com/item/32980090161.html?spm=2114.search0104.3.2.71e0331fj3GsxM)
+* [Screws for PCB mounting](https://www.aliexpress.com/item/32909008538.html?spm=a2g0s.9042311.0.0.27424c4dg2vKQ5)
+* [Screws M2 x 20mm](https://www.aliexpress.com/item/32825288439.html?spm=a2g0s.9042311.0.0.27424c4dg2vKQ5)
+
 # Warning
 
 This design has several problems:
