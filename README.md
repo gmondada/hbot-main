@@ -8,6 +8,41 @@ This design makes use of ES08MA II servos controlled by a custom STM32F4/ESP8266
 
 ![overview](https://raw.githubusercontent.com/gmondada/hbot-main/master/images/hbot-one-leg.jpg)
 
+# Parts
+
+## 3D Printed Parts
+
+* [Head](face.stl)
+* [Body](robonoid/bought-parts/Robonoid_BodyHudi.stl)
+* [Back (PCB Holder)](pcb-holder.stl)
+* [Shoulder](robonoid/bought-parts/project-humanoid-robot-robonoid-shoulder-by-zalophus-dokdo/Robonoid_ShoulderPitch_Left.stl)
+* [Shoulder](robonoid/bought-parts/project-humanoid-robot-robonoid-shoulder-by-zalophus-dokdo/Robonoid_ShoulderPitch_Right.stl)
+* [Arm](robonoid/bought-parts/project-humanoid-robot-robonoid-elbow-shoulder-by-zalophus-dokdo/Robonoid_ElbowShoulderRoll_Left.stl)
+* [Arm](robonoid/bought-parts/project-humanoid-robot-robonoid-elbow-shoulder-by-zalophus-dokdo/Robonoid_ElbowShoulderRoll_Right.stl)
+* [Hand](robonoid/bought-parts/project-humanoid-robot-robonoid-hands-by-zalophus-dokdo/Robonoid_Hand_Left.stl)
+* [Hand](robonoid/bought-parts/project-humanoid-robot-robonoid-hands-by-zalophus-dokdo/Robonoid_Hand_Right.stl)
+* [Hip](robonoid/bought-parts/project-humanoid-robot-robonoid-shoulder-by-zalophus-dokdo/Robonoid_HandWristShoulderPitchThighYawFoot_Left.stl)
+* [Hip](robonoid/bought-parts/project-humanoid-robot-robonoid-shoulder-by-zalophus-dokdo/Robonoid_HandWristShoulderPitchThighYawFoot_Right.stl)
+* [Hip to Thigh Junction](robonoid/bought-parts/project-humanoid-robot-robonoid-foot-thigh-by-zalophus-dokdo/Robonoid_FootRollPitchThighPitchRoll_Left.stl)
+* [Hip to Thigh Junction](robonoid/bought-parts/project-humanoid-robot-robonoid-foot-thigh-by-zalophus-dokdo/Robonoid_FootRollPitchThighPitchRoll_Right.stl)
+* [Thigh + Knee](robonoid/bought-parts/project-humanoid-robot-robonoid-knee-pitch-by-zalophus-dokdo/Robonoid_KneePitch_Left.stl)
+* [Thigh + Knee](robonoid/bought-parts/project-humanoid-robot-robonoid-knee-pitch-by-zalophus-dokdo/Robonoid_KneePitch_Right.stl)
+* [Leg](robonoid/bought-parts/project-humanoid-robot-robonoid-knee-by-zalophus-dokdo/Robonoid_Knee_Left.stl)
+* [Leg](robonoid/bought-parts/project-humanoid-robot-robonoid-knee-by-zalophus-dokdo/Robonoid_Knee_Right.stl)
+* [Ankle](robonoid/bought-parts/project-humanoid-robot-robonoid-foot-thigh-by-zalophus-dokdo/Robonoid_FootRollPitchThighPitchRoll_Left.stl)
+* [Ankle](robonoid/bought-parts/project-humanoid-robot-robonoid-foot-thigh-by-zalophus-dokdo/Robonoid_FootRollPitchThighPitchRoll_Right.stl)
+* [Left Food](robonoid/bought-parts/project-humanoid-robot-robonoid-foots-by-zalophus-dokdo/Robonoid_Foot_Left.stl)
+* [Right Food](robonoid/bought-parts/project-humanoid-robot-robonoid-foots-by-zalophus-dokdo/Robonoid_Foot_Right.stl)
+
+# Warning
+
+This design has several problems:
+1. Servos are not powerful enough. Raising a leg is super difficult. We should use servos with a higher reduction ratio.
+2. Servos are not protected. If you stop the robot in a position where a servo has to provide some significant tork, the servo will heat and burn. This happens very easily, when the robot falls down, for instance, and makes the design absoutely not safe to play with.
+3. Servos position control loop is not suitable for loads with significant inertia and low friction. I had to artificially increase friction in order to avoid oscillations.
+
+This project in not maintained anymore.
+
 # License
 
 Copyright (c) 2019 Gabriele Mondada.
